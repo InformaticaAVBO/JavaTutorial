@@ -1,7 +1,7 @@
-package F_File; /**
+package F_File;
+/*
 * Programma con esempi di scrittura su file di testo
 */
-
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -10,7 +10,6 @@ import java.io.IOException;
 public class WriteFormattedNumbers {
 
     public static void main( String[] args ) {
-
         File f = new File("F_File/WriteFormattedNumers.txt");
         try {
             PrintWriter scrittore = new PrintWriter( f );
@@ -21,10 +20,6 @@ public class WriteFormattedNumbers {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
-
-        
-
     }
+
 }

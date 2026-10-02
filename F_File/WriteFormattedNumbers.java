@@ -1,17 +1,17 @@
-/*
- * Programma con esempi di lettura e scrittura file di testo
- */
+package F_File; /**
+* Programma con esempi di scrittura su file di testo
+*/
+
 
 import java.io.File;
-import java.util.Scanner;
 import java.io.PrintWriter;
 import java.io.IOException;
 
-public class ProveFile {
+public class WriteFormattedNumbers {
 
     public static void main( String[] args ) {
 
-        File f = new File("random.csv");
+        File f = new File("F_File/WriteFormattedNumers.txt");
         try {
             PrintWriter scrittore = new PrintWriter( f );
             for (int i=0; i<10; i++ ) {
